@@ -1,0 +1,208 @@
+.textarea{
+  width: 350px;
+  height: 400px;
+  resize: none;
+  margin-top: 120px;
+  margin-left: 85px;
+}
+
+.decoder {
+  height: 650px;
+  background-image: url(../img/message.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.text-btn {
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width:1400px) {
+  .textarea{
+    width: 300px;
+    height: 380px;
+    resize: none;
+    margin-top: 130px;
+    margin-left: 75px;
+  }
+  
+  .text-btn {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width:1110px) {
+  .textarea{
+    width: 265px;
+    height: 330px;
+    resize: none;
+    margin-top: 160px;
+    margin-left: 70px;
+  }
+}
+
+@media only screen and (max-width:980px) {
+  .textarea{
+    width: 240px;
+    height: 320px;
+    resize: none;
+    margin-top: 160px;
+    margin-left: 65px;
+  }
+}
+
+@media only screen and (max-width:920px) {
+  .textarea{
+    width: 230px;
+    height: 300px;
+    resize: none;
+    margin-top: 170px;
+    margin-left: 65px;
+  }
+}
+
+@media only screen and (max-width:865px) {
+  .textarea{
+    width: 210px;
+    height: 290px;
+    resize: none;
+    margin-top: 175px;
+    margin-left: 65px;
+  }
+}
+
+@media only screen and (max-width:810px) {
+  .textarea{
+    width: 210px;
+    height: 260px;
+    resize: none;
+    margin-top: 190px;
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .textarea{
+    width: 430px;
+    height: 550px;
+    resize: none;
+    margin-top: 120px;
+    margin-left: 155px;
+  }
+  
+  .decoder {
+    height: 800px;
+    background-image: url(../img/message.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .text-btn {
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width:690px) {
+  .textarea{
+    width: 430px;
+    height: 500px;
+    resize: none;
+    margin-top: 150px;
+    margin-left: 120px;
+  }
+}
+
+@media only screen and (max-width:650px) {
+  .textarea{
+    width: 420px;
+    height: 500px;
+    resize: none;
+    margin-top: 150px;
+    margin-left: 100px;
+  }
+}
+
+@media only screen and (max-width:610px) {
+  .textarea{
+    width: 400px;
+    height: 460px;
+    resize: none;
+    margin-top: 120px;
+    margin-left: 90px;
+  }
+
+  .decoder {
+    height: 700px;
+    background-image: url(../img/message.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+@media only screen and (max-width:570px) {
+  .textarea{
+    width: 350px;
+    height: 400px;
+    resize: none;
+    margin-top: 140px;
+    margin-left: 90px;
+  }
+}
+
+@media only screen and (max-width:510px) {
+  .textarea{
+    width: 320px;
+    height: 380px;
+    resize: none;
+    margin-top: 110px;
+    margin-left: 80px;
+  }
+
+  .decoder {
+    height: 600px;
+  }
+}
+
+@media only screen and (max-width:450px) {
+  .textarea{
+    width: 280px;
+    height: 300px;
+    resize: none;
+    margin-top: 140px;
+    margin-left: 70px;
+  }
+}
+
+@media only screen and (max-width:400px) {
+  .textarea{
+    width: 240px;
+    height: 280px;
+    resize: none;
+    margin-top: 110px;
+    margin-left: 65px;
+  }
+
+  .decoder {
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width:360px) {
+  .textarea{
+    width: 230px;
+    height: 260px;
+    resize: none;
+    margin-top: 120px;
+    margin-left: 50px;
+  }
+}
+

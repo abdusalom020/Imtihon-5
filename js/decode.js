@@ -2,6 +2,7 @@ const elCaeserForm = document.querySelector('.caeser-form');
 const elCaeserInputTextarea = elCaeserForm.querySelector('.js-caeser-input-textarea');
 const elCaeserClearBtn = elCaeserForm.querySelector('.js-caeser-clear-btn');
 const elCaeserSelect = elCaeserForm.querySelector('.js-caeser-select');
+const elCaeserRunbtn = elCaeserForm.querySelector('.js-caeser-run-btn');
 const elCaeserOutputTextarea = elCaeserForm.querySelector('.js-caeser-output-textarea');
 const elCaeserCopyBtn = elCaeserForm.querySelector('.js-caeser-copy-btn');
 
@@ -9,9 +10,10 @@ const elCaeserCopyBtn = elCaeserForm.querySelector('.js-caeser-copy-btn');
 
 function showRotOptions() {
   const elRotFragment = document.createDocumentFragment();
-  for (let rot = 1; rot <= 25; rot++) {
+  for (let rot = 25; rot >= 1; rot--) {
+    const derot = 26;
     const elRotOption = document.createElement('option');
-    elRotOption.textContent = `Rot - ${rot}`;
+    elRotOption.textContent = `Rot - ${derot - rot}`;
     elRotOption.value = rot;
     elRotFragment.appendChild(elRotOption);
   };
@@ -61,7 +63,7 @@ function Caser (str, amount) {
 
 showRotOptions();
 
-elCaeserForm.addEventListener('input', evt => {
+elCaeserRunbtn.addEventListener('click', evt => {
   evt.preventDefault();
   const userInput = elCaeserInputTextarea.value;
   const userRot = Number(elCaeserSelect.value);

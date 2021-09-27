@@ -7,17 +7,11 @@
   <title>project</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
-  <style>
-    textarea{
-      height: 500px;
-      resize: none;
-    }
-  </style>
 </head>
 <body class="bg-warning">
   <header class="bg-danger py-3 mb-4 d-flex align-items-center justify-content-center">
-    <h1 class="display-4 text-white fw-bold text-center me-md-5 me-2">Caesr Cipher</h1>
-    <a class="text-decoration-none text-dark btn btn-light" href="decode.html">Decipher</a>
+    <h1 class="display-4 text-white fw-bold text-center me-md-5 me-2">Caesr Decipher</h1>
+    <a class="text-decoration-none text-dark btn btn-light" href="index.html">Cipher</a>
   </header>
 
   <div class="container-xl pb-5">
@@ -29,6 +23,7 @@
       <div class="col-md-2 mt-5">
         <select class="w-100 form-control js-caeser-select mb-3" name="rot" required>
         </select>
+        <button class="form-control bg-primary text-white js-caeser-run-btn" type="button">Run</button>
       </div>
       <div class="decoder col-md-5 d-flex flex-column">
         <textarea class="textarea form-control py-2 border-0 bg-transparent js-caeser-output-textarea" name="sazer" readonly></textarea>
@@ -38,6 +33,6 @@
   </div>
 
   <script src="js/bootstrap5.bundle.min.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/decode.js"></script>
 </body>
 </html>
